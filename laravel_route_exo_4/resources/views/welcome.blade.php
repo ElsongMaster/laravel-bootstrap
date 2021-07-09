@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <title>laravel_route_exo_4</title>
-</head>
-<body>
+@extends('template/main')
+
+@section('content')
+
+<div class="body_content">
 <h1>Mon site: laravel_route_exo_4 </h1>
     
-<script src="{{asset('js/app.js')}}"></script>
-</body>
-</html>
+</div>
+@endsection
