@@ -16,3 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/index', function () {
+    return view('template.index');
+});
+
+
+Route::get('/About', function () {
+    return view('pages.about');
+});
+
+Route::get('/Services', function () {
+    return view('pages.services');
+});
+
+Route::get('/Contact', function () {
+    return view('pages.contact');
+});
